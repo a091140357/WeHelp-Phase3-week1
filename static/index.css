@@ -1,0 +1,10 @@
+.line{
+    border: 2px solid #E8E8E8;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.pic{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+}
