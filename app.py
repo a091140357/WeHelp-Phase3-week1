@@ -103,7 +103,7 @@ def save_message(
                   filename,
                   ExtraArgs = {"ContentType":image.content_type}
              )
-             image_url = f"https://{BUCKET_NAME}.s3.{REGION_NAME}.amazonaws.com/{filename}"
+             image_url = f"https://d3jsg4z3dj7kth.cloudfront.net/{filename}"
              print("圖片上傳成功")
 
         except Exception as e:
